@@ -1,0 +1,4 @@
+name: Drupal Up Service Parm Text Generator
+description: Drupal up Service with Param, text generator.
+type: module
+core: 8.x

@@ -1,0 +1,8 @@
+parameters:
+    drupalup_serviceparm.debug_mode: false
+
+services:
+    drupalup_serviceparm.example_text_generator:
+        class: Drupal\drupalup_serviceparm\ExampleTextGenerator
+        arguments:
+            - '%drupalup_serviceparm.debug_mode%'
